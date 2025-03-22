@@ -20,14 +20,14 @@
   h2 {
     font-size: paragraph(h2-size);
 
-    &:after {
-      content: "";
-      display: block;
-      width: calcRem(100px);
-      height: 1px;
-      margin: 0 auto;
-      border-bottom: 1px solid paragraph(h2-bd);
-    }
+    // &:after {
+    //   content: "";
+    //   display: block;
+    //   width: calcRem(100px);
+    //   height: 1px;
+    //   margin: 0 auto;
+    //   border-bottom: 1px solid paragraph(h2-bd);
+    // }
   }
 
   h3 {
