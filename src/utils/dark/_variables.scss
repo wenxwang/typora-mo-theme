@@ -8,13 +8,13 @@ $global: (
   root-size: 16px,
   serif: $serif,
   sans-serif: $sans-serif,
-  write-width: 90%,
+  write-width: 94%,
   bd-radius-4: 4px,
   bd-radius-6: 6px,
   box-shadow: $box-shadow,
-  bg: #181a1b,
-  color: rgb(171, 192, 208),
-  selected-bg: #67769660,
+  bg: #1e1e1e,
+  color: #e1e1e1,
+  selected-bg: #00ffff60,
   hover-bg: rgb(62, 66, 73),
   dropdown-bg: rgb(34, 37, 38),
   bd-1-dark: 1px solid rgba(171, 192, 208, 0.1),
@@ -58,7 +58,7 @@ $code-color: (
 // strong,underline,hightlight etc.
 $format: (
   strong-bg: inherit,
-  strong-color: #b5302e,
+  strong-color: #94d61a,
   emphasis-bg: inherit,
   emphasis-color: #949415,
   u-bg: inherit,
@@ -83,7 +83,7 @@ $paragraph: (
   h1-size: 3rem,
   h2-size: 2.4rem,
   h3-size: 1.8rem,
-  h2-bd: rgb(171, 192, 208),
+  h2-bd: #e1e1e1,
   // blockquote
   bq-bd-width: 8px,
   bq-bd: rgb(47, 132, 94),
@@ -92,7 +92,7 @@ $paragraph: (
   hr-shape: dashed,
   hr-bd: #abb2bf,
   // table
-  table-bd: rgb(47, 132, 94),
+  table-bd: transparent,
   table-thead-bg: rgb(47, 132, 94),
   table-thead-color: #000,
   table-edit-bg: rgb(34, 37, 38),
@@ -101,7 +101,7 @@ $paragraph: (
   front-matter-color: rgb(134, 165, 195),
   // task list
   task-bd-shape: 50%,
-  task-bd: rgb(171, 192, 208),
+  task-bd: #e1e1e1,
   task-bg: rgb(34, 37, 38),
   task-done-bg: #67c23a,
   task-done-icon: #fff,
@@ -115,12 +115,12 @@ $paragraph: (
 $ui-control: (
   // sidebar
   sidebar-file-acitve-bd: rgb(47, 132, 94),
-  sidebar-file-acitve-bg: rgb(34, 37, 38),
-  sidebar-menu-bg: #181a1b,
+  sidebar-file-acitve-bg: rgb(5, 5, 5), // 左侧文件选中的背景
+  sidebar-menu-bg: #1E1E1E,
   // scrollBar
   sb-bg: linear-gradient(to top right, #41b782, #86d169),
   // quick open
-  qo-color: rgb(171, 192, 208),
+  qo-color: #e1e1e1,
   // modal dialog
   m-d-bg: rgb(34, 37, 38),
   // preferences

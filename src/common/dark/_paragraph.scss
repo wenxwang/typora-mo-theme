@@ -82,7 +82,7 @@ hr {
 
     th,
     td {
-      padding: 10px 16px;
+      padding: 6px 10px;
       border: {
         top: 1px solid paragraph(table-bd);
         left: 1px solid paragraph(table-bd);
@@ -112,7 +112,6 @@ hr {
     tbody + tbody {
       border-top: 2px solid paragraph(table-bd);
     }
-  }
 
   .md-table-edit {
     background-color: paragraph(table-edit-bg);
@@ -154,6 +153,54 @@ hr {
       }
     }
   }
+      
+    // customize table
+          thead tr {
+            color: #dfebdb;
+            background-color: #1d1c1c;
+          }
+      
+          tbody tr:hover {
+            color: #69ec35;
+          }
+      
+          th,
+          td {
+            padding: 6px 10px;
+          }
+      
+          th {
+            /* background: #2B2D2E; */
+            border-bottom: 3px solid #a1a5a0;
+          }
+      
+          td {
+            /* background: #303233; */
+            border-bottom: 1px solid #80867e99;
+          }
+        }
+      }
+      
+      .md-rawblock > .md-rawblock-container table,
+      .md-table-fig,
+      .md-table-fig:active {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+      
+      /* 表格选项和删除按钮 */
+      .btn-default {
+        &.active,
+        &.focus,
+        &:active,
+        &:focus,
+        &:hover,
+        .open>&.dropdown-toggle {
+          background-color: #840a0a96;
+          border: none;
+          outline: none;
+          border-radius: 2px;
+  }
+    // customize table over
 }
 #table-insert-dialog {
   .modal-content {
@@ -187,18 +234,21 @@ hr {
 
 /* task list */
 .md-task-list-item {
+    padding-left: .3rem;
+
   > input {
     &::before {
-      content: "";
-      position: absolute;
-      top: -5px;
-      left: -4px;
-      border-radius: paragraph(task-bd-shape);
-      width: 20px;
-      height: 20px;
-      border: 1px solid paragraph(task-bd);
-      background: paragraph(task-bg);
-      transition: background-color 200ms ease-in-out;
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: 0px;
+        border-radius: 4px;
+        width: 1.1rem;
+        height: 1.1rem;
+        border: 1px solid #d5e7d6;
+        background: #242424;
+        -webkit-transition: background-color 200ms ease-in-out;
+        transition: background-color 200ms ease-in-out;
     }
 
     &::after {
@@ -358,4 +408,13 @@ hr {
   .md-focus-container {
     color: global(color);
   }
+}
+
+// 有序、无需列表
+.ul-list,.ol-list {
+    padding-left: 20px;
+
+    .md-list-item {
+        padding-left: .3rem !important;
+    }
 }

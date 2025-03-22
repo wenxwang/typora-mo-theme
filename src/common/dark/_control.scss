@@ -167,12 +167,17 @@
 
     .sidebar-content-content {
       .file-node-content {
-        line-height: calcRem(22px);
+        line-height: calcRem(20px);
         font-size: calcRem(16px);
         color: global(color) !important;
+        padding-top: 0;
       }
 
       .file-tree-node {
+        padding-left: calcRem(16px);
+        .file-node-background {
+            height: 1.3rem;
+        }
         &:not(.file-node-root):hover > .file-node-background {
           border-left: 4px solid uiControl(sidebar-file-acitve-bd);
           background-color: uiControl(sidebar-file-acitve-bg);

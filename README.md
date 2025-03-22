@@ -39,3 +39,21 @@ dark:
 - Some small details on MacOS/Linux may differ from those on Windows
 
 > This theme is written in SCSS. If you want to change the color of this theme, you can change `_variables.scss`file in the `src/utils/dark`or`src/utils/light`directory. Then compile the `mo.scss` or `mo-dark.scss` files.
+
+
+### 编译自用
+
+1. 安装sass
+
+   ```
+   npm install -g sass
+   ```
+
+2. 进入根目录
+
+3. 执行编译
+
+   ```
+   sass src/mo-dark.scss ./w.css
+   ```
+
