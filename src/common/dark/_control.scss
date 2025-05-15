@@ -321,3 +321,13 @@
 .typora-node .file-list-item-summary {
   font-family: global(serif);
 }
+
+.ty-search-item-matches {
+.ty-search-item-line.active, .ty-search-item-line:hover, .ty-search-item.active {
+    background: #2c3d35 !important;
+    .ty-file-search-match-text {
+        color: #fff !important;
+        background: #1ccad9 !important;
+    }
+}
+}

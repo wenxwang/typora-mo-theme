@@ -586,6 +586,10 @@ a img {
   color: #abb2bf !important;
 }
 
+.md-search-hit {
+  background-color: #1ccad9 !important;
+}
+
 /* scrollbar */
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(to top right, #41b782, #86d169) !important;
@@ -830,6 +834,14 @@ a img {
 .typora-node .file-list-item-time,
 .typora-node .file-list-item-summary {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.ty-search-item-matches .ty-search-item-line.active, .ty-search-item-matches .ty-search-item-line:hover, .ty-search-item-matches .ty-search-item.active {
+  background: #2c3d35 !important;
+}
+.ty-search-item-matches .ty-search-item-line.active .ty-file-search-match-text, .ty-search-item-matches .ty-search-item-line:hover .ty-file-search-match-text, .ty-search-item-matches .ty-search-item.active .ty-file-search-match-text {
+  color: #fff !important;
+  background: #1ccad9 !important;
 }
 
 /*# sourceMappingURL=w.css.map */
