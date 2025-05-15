@@ -237,6 +237,7 @@ hr {
     padding-left: .3rem;
 
   > input {
+    margin-top: calc(1em - 13px);
     &::before {
         content: "";
         position: absolute;
@@ -255,7 +256,7 @@ hr {
       content: "";
       position: absolute;
       top: 2px;
-      left: 1px;
+      left: 4px;
       width: 0.6rem;
       height: 0.3rem;
       border: 2px solid paragraph(task-done-icon) {
