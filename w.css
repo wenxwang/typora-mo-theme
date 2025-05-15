@@ -361,7 +361,7 @@ hr {
 }
 
 .ul-list, .ol-list {
-  padding-left: 20px;
+  padding-left: 1.35rem;
 }
 .ul-list .md-list-item, .ol-list .md-list-item {
   padding-left: 0.3rem !important;
